@@ -1,0 +1,39 @@
+ <div class="blockk" ><br>
+          <div class="box121"><br>
+            
+            <label><input type="checkbox" value="pffgB-99-Tm40Ecbest" id="pffgB-99-Tm40Ecbest">pffgB-99-Tm40Ecbest     </label><br />
+            <i onclick="myFunction(this)" class="fa" value="pffgB-99-Tm40Ecbest" >pffgB-99-Tm40Ecbest</i><br>    
+            <i onclick="myFunction(this)" class="fa" value="pffgB-99-Tm40Ecbest" >pffgB-99-Tm40Ecbest</i><br>            
+            <i onclick="myFunction(this)" class="fa" value="pffgB-99-Tm40Ecbest" >pffgB-99-Tm40Ecbest</i><br>    
+            <i onclick="myFunction(this)" class="fa" value="pffgB-99-Tm40Ecbest" >pffgB-99-Tm40Ecbest</i><br>            
+            <i onclick="myFunction(this)" class="fa" value="pffgB-99-Tm40Ecbest" >pffgB-99-Tm40Ecbest</i><br>
+            <i onclick="myFunction(this)" class="fa" value="pffgB-99-Tm40Ecbest" >pffgB-99-Tm40Ecbest</i><br>
+             
+          </div>
+          <div class="box121"><br>
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>    
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>            
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>    
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>            
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>
+            <button type="button" class="button31" id="btn" value="Add" onclick="AddRow()" onclick="disable()"> Create</button>
+          </div>
+          <div class="box121"><br>
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>    
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>            
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>    
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>            
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>
+            <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>
+          </div>
+          
+          <div class="box121"><br>
+           <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>    
+           <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>            
+           <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>    
+           <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>            
+           <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>
+           <i onclick="myFunction(this)" class="fa">pffgB-99-Tm40Ecbest</i><br>
+              </div>
+            </div>
