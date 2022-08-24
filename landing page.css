@@ -1,0 +1,310 @@
+.body{
+    margin: 0  auto;
+    position: relative;
+    /* max-width:1000px; */
+    /* border: 3px solid  blue; */
+}
+.container{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    height: 100%;
+    grid-template-columns:repeat(auto-fill,minmax(200px,auto));
+    grid-auto-rows: minmax(100px,auto);
+    
+}
+
+.box{
+    display: block;
+    /* text-align: center; */
+    background-color: white;
+    row-gap: 4px;
+    column-gap: 4px;
+    /* max-width:1000px; */
+    /* border: 3px solid black; */
+}
+.box1{                                       /* first navbar*/                      
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 24;
+    align-items: center;
+    /* background-color: lightcoral; */
+}
+.box2 , .wrapper{                                           /* Second navbar*/  
+    grid-row-start: 2;
+    text-align: center;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 24;
+    align-items:flex-start;
+    align-items: center;
+    /* background-color: lightblue; */
+}
+.box3{                                            /*Scroll image*/            
+    max-width: 100%;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end:24 ;
+    /* background-color: lightgreen; */
+}
+.box5{                                             /*footer*/
+    grid-row-start: 11;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: lightpink;
+}
+.box4{                                             /*scrolling image*/
+    grid-column-start: 1;
+    grid-column-end: 24;
+    grid-row-start: 7;
+    grid-row-end: 11;
+    background-color: blueviolet;
+}
+
+.logonxp{
+    
+position: absolute;
+width: 111.11px;
+height: 40px;
+left: 10px;
+top: 33px;
+}
+
+/* for user profile*/
+.action{
+    position:fixed;
+    top:20px;
+    right: 20px;
+}
+.action.profile{
+    position: relative;
+    width:50px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.action .profile img{
+    position: absolute;
+    top:12px;
+    left:-100px;
+    width: 50px;                                      
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.action .menu{
+    position: absolute;
+    top:80px;
+    right: 10px;
+    padding: 10px;
+    background: white;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.action .menu.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu.menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(24deg);
+}
+
+.action .menu h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.2em;
+}
+
+.action .menu h3 span{
+    font-size: 14px;
+    color: #cecece;
+    font-weight: 400;
+}
+
+.action .menu ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0,0,.05);
+    display: flex;
+    align-items: center;
+}
+.action .menu ul li:hover{
+    opacity: 1;
+}
+.action .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.action .menu ul li:hover a{
+    color: white;
+}
+
+
+.nav-container{
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+
+
+
+/* for second navigation bar */
+
+.button {
+    border: none;
+    white-space: nowrap;
+    color: whitesmoke;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 18.3607px;
+    background: #0A0A0A;
+    
+  }
+  /* .button:active{
+    color:green
+  } */
+
+  .button11{
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 18.3607px;
+    background: #FCB316;
+  }
+.wrapper{
+    max-width:1200px ;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    height: 150px;
+    /* margin: 140px; */
+}
+.navitems li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px 0px 1px  ;
+    /* margin: auto; */
+    align-items: center;
+
+}
+.wrapper{
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+li a:hover, .dropdown:hover .dropbtnn {
+    background-color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.button33{
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 18.3607px;
+    background: #0A0A0A;
+    
+}
+.texxt{
+    align-items: right;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 39.3607px;
+line-height: 48px;
+/* identical to box height */
+
+
+color: #44566C;
+
+}
