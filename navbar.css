@@ -1,0 +1,42 @@
+.nav-container{
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.navitems li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px 0px 1px  ;
+    /* margin: auto; */
+    align-items: center;
+}
+  .button11{
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 18.3607px;
+    background: #FCB316;
+  }
+
+.button {
+    border: none;
+    white-space: nowrap;
+    color: whitesmoke;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 14px 20px;
+    cursor: pointer;
+    border-radius: 18.3607px;
+    background: #0A0A0A;
+    
+  }
