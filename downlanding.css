@@ -1,0 +1,9 @@
+.box3{                                            /*Scroll image*/            
+    max-width: 100%;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end:24 ;
+    /* background-color: lightgreen; */
+}
